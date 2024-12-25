@@ -1,0 +1,66 @@
+/* Skills Section Styling */
+.skills-section {
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .skills-section .section-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  /* Container for the skills */
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Skill Card Styling */
+  .skill-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px); /* Hover effect */
+    background-color: #45a049;
+  
+  }
+  
+  .skill-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .skill-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  /* Responsiveness */
+  @media screen and (max-width: 768px) {
+    .skills-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .skills-container {
+      grid-template-columns: 1fr; /* 1 card per row on small screens */
+    }
+  }
+  

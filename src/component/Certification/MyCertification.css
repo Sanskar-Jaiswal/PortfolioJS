@@ -1,0 +1,62 @@
+/* General Styles */
+
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 40px 0;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    padding: 20px 40px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adds equal spacing between the images */
+    flex-wrap: wrap; /* Ensures images wrap on small screens */
+    margin: 0 auto;
+    max-width: 1000px; /* Limits the width of the container */
+    padding: 0 20px; /* Optional padding for the container */
+  }
+  
+  .image {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 15%; /* Each image takes 20% of the container width */
+    height: 15%; /* Each image takes 20% of the container height */
+    object-fit: cover; /* Ensures images don't stretch and maintain their aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect to the images */
+  }
+  
+  @media (max-width: 768px) {
+    p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 2rem; /* Slightly smaller title on small screens */
+    }
+  
+    .images-container {
+      flex-direction: column; /* Stacks images vertically on small screens */
+      gap: 20px;
+    }
+  
+    .image {
+      width: 100%; /* Makes images take full width on smaller screens */
+      height: auto; /* Ensures images adjust their height proportionally */
+    }
+  }
+  

@@ -1,0 +1,54 @@
+/* General Footer Styles */
+.footer {
+    background-color: #21201E;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #0073e6;
+  }
+  
+  /* Adding icons using Font Awesome */
+  .fab, .fas {
+    font-size: 1.5rem;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-socials {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
