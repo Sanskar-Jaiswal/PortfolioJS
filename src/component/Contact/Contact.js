@@ -2,24 +2,21 @@ import React, { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
+  const [formData,setdata]=useState({name:'',email:'',message:''});
+  const handleChange=(e)=>{
+    const {name,value}=e.target;
+    setdata({
       ...formData,
-      [name]: value,
+      [name]:value,
     });
   };
-
-  const handleSubmit = (e) => {
+  const handleSubmit=(e)=>{
     e.preventDefault();
-    // Handle form submission (you can implement email or API submission here)
-    console.log('Form submitted', formData);
+    const {name,email,message}=formData;
+    const formattedMessage=`Hello! You have a new message from your portfolio contact form:\n\n*Name*: ${name}\n*Email*: ${email}\n*Message*: ${message}`;
+    const phoneNumber='7809131211';
+    const whatsppLink=`https://wa.me/${phoneNumber}?text=${encodeURIComponent(formattedMessage)}`;
+    window.open(whatsppLink,'_blank');
   };
 
   return (
