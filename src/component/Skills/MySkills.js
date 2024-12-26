@@ -52,7 +52,7 @@ const MySkills = () => {
           <h3 className="skill-title">React-Toolkit</h3>
         </div>
         <div className="skill-card">
-          <h3 className="skill-title">Urban Code Deploy.js</h3>
+          <h3 className="skill-title">Urban Code Deploy</h3>
         </div>
         <div className="skill-card">
           <h3 className="skill-title">Visual Studio</h3>
