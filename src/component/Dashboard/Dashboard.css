@@ -6,15 +6,34 @@
     padding: 20px;
     gap: 20px;  /* Adds space between text and image */
   }
-  
   /* Text styling */
   .text {
     flex: 1;  /* Take up available space */
     max-width: 50%;  /* Limit to 50% width on larger screens */
-  }
-  .des{
     text-align: center;
   }
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap'); /* Import the Rubik font */
+
+.des {
+  font-family: "Rubik", serif; /* Use Rubik font */
+  font-optical-sizing: auto; /* Optimal rendering */
+  font-weight: 600; /* Medium font weight */
+  font-style: italic; /* Slanted text */
+  text-align: center; /* Center-align text */
+  font-size: 1.8rem; /* Adjust font size */
+  color: #333; /* Neutral dark text color */
+  letter-spacing: 2px; /* Space out letters slightly */
+  transform: skewX(-10deg); /* Add a slant effect */
+  margin: 20px 0; /* Add spacing above and below */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+}
+
+.des:hover {
+  color: #ff5722; /* Change color on hover */
+  transform: scale(1.1) skewX(-10deg); /* Scale up slightly while maintaining slant */
+}
+
+  
   .text h1 {
     font-size: 6rem;
     margin: 0;
@@ -24,38 +43,32 @@
     margin: 0;
   }
   .button{
-    text-align: center;
+    text-align: right;
   }
-  
   .text p {
     font-size: 0.8rem;
     margin-top: 10px;
   }
-  
   /* Image styling */
   .profileimage {
     flex: 1;  /* Take up available space */
     max-width: 50%;  /* Limit to 50% width on larger screens */
   }
-  
   .image img {
     width: 100%;  /* Make image responsive */
     height: auto;  /* Maintain aspect ratio */
     border-radius: 50%;  /* Optional: makes image circular */
     object-fit: cover;  /* Ensures the image covers the container */
   }
-  
   /* Responsiveness for smaller screens */
   @media (max-width: 768px) {
     .container {
       flex-direction: column;  /* Stack the content vertically on smaller screens */
       text-align: center;  /* Center align the text on small screens */
     }
-  
     .text, .image {
       max-width: 100%;  /* Allow both text and image to take full width */
     }
-  
     .image img {
       border-radius: 50%;  /* Maintain circular image shape */
       width: 150px;  /* Adjust image size on smaller screens */
