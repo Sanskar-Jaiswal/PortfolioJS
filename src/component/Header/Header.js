@@ -17,7 +17,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="download-btn">
-        <a href="/path/to/resume.pdf" download="Sanskar_Jaiswal_Resume" className="download-link">
+        <a href="./pdf/Devops_Developer.pdf" download="Sanskar_Jaiswal_Resume" className="download-link">
           Download Resume
         </a>
       </div>
