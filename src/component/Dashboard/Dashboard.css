@@ -18,11 +18,11 @@
   font-family: "Rubik", serif; /* Use Rubik font */
   font-optical-sizing: auto; /* Optimal rendering */
   font-weight: 600; /* Medium font weight */
-  font-style: italic; /* Slanted text */
+  font-style:normal; /* Slanted text */
   text-align: center; /* Center-align text */
   font-size: 1.8rem; /* Adjust font size */
-  color: #333; /* Neutral dark text color */
-  letter-spacing: 2px; /* Space out letters slightly */
+  color: #ffffff; /* Neutral dark text color */
+  letter-spacing: 6px; /* Space out letters slightly */
   transform: skewX(-10deg); /* Add a slant effect */
   margin: 20px 0; /* Add spacing above and below */
   transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover transition */
