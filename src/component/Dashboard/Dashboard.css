@@ -29,7 +29,7 @@
 }
 
 .des:hover {
-  color: #ff5722; /* Change color on hover */
+  color: #45a049;; /* Change color on hover */
   transform: scale(1.1) skewX(-10deg); /* Scale up slightly while maintaining slant */
 }
 
