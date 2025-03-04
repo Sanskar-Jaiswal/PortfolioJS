@@ -20,7 +20,7 @@ const Header = () => {
         <a href="./pdf/SanskarJaiswal_Resume.pdf" download="Sanskar_Jaiswal_Resume" className="download-link">
           Download Resume
         </a>
-        <a href='https://ecommerce-react-three-zeta.vercel.app/'>mysite</a>
+        <a href='https://ecommerce-react-three-zeta.vercel.app/' className="download-link">mysite</a>
       </div>
     </header>
   );
