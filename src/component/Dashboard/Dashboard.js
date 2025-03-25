@@ -13,7 +13,7 @@ const Dashboard = () => {
               Proficient in optimizing application performance, minimizing downtime, and ensuring seamless application flow across systems to enhance operational efficiency. Adept at continuous improvement through mastering emerging technologies, maintaining alignment with industry advancements. 
               Proven track record of integrating cutting-edge technologies and frameworks into projects to drive tangible benefits, resulting in enhanced project success and organizational profitability. Committed to excellence, innovation, and ongoing learning to deliver continuous value to teams and projects.
           </p>
-          <button className='button'>Explore my work</button>
+          <a href="#projects" className='button'>Explore my work </a>
         </div>
       <div className='profileimage'>
     <     img src="./image/profilephoto.png" alt="myimage"/>
