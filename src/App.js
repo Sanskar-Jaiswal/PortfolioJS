@@ -9,5 +9,5 @@ function App() {
     </>
   );
 }
-
+/* Added the comment*/
 export default App;
