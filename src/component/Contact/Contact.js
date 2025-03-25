@@ -29,7 +29,7 @@ const Contact = () => {
 
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="name">Full Name</label>
+            
             <input
               type="text"
               id="name"
@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            
             <input
               type="email"
               id="email"
@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="message">Message</label>
+            
             <textarea
               id="message"
               name="message"
