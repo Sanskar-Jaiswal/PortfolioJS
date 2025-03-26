@@ -82,6 +82,13 @@ const MySkills = () => {
           <h3 className="skill-title">Azure VM</h3>
         
         </div>
+        <div className="skill-card">
+          <h3 className="skill-title">Nexus</h3>
+        </div>
+        <div className="skill-card">
+          <h3 className="skill-title">Jenkins</h3>
+        </div>
+        
       </div>
     </section>
   )
