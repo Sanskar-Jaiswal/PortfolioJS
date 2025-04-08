@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 
+// {<a href='https://ecommerce-react-three-zeta.vercel.app/' className="download-link">mysite</a>}
+
 const Header = () => {
   return (
     <header className="header">
@@ -17,10 +19,10 @@ const Header = () => {
         </ul>
       </nav>
       <div className="download-btn">
-        <a href="./pdf/SanskarJaiswal_Resume.pdf" download="Sanskar_Jaiswal_Resume" className="download-link">
+        <a href="./pdf/SanskarJaiswalResume.pdf" download="Sanskar_Jaiswal_Resume" className="download-link">
           Download Resume
         </a>
-        <a href='https://ecommerce-react-three-zeta.vercel.app/' className="download-link">mysite</a>
+       
       </div>
     </header>
   );
