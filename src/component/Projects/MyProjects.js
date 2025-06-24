@@ -31,8 +31,18 @@ const MyProjects = () => {
     </div>
     <div className="card">
       <img src="./image/AI.png" alt="Image 5" className="card-img"/>
-      <h3 className="card-title">Card 5 Title</h3>
-      <p className="card-description">This is a description for Card 5.</p>
+      <h3 className="card-title">Microsoft Azure AI Fundamentals | Aspiring AI & Cloud Professional</h3>
+      <p className="card-description">AI Fundamentals: Strong grasp of AI workloads, principles, and types including machine learning and deep learning.
+
+Microsoft Azure AI Services: Hands-on knowledge of Azure Cognitive Services (Vision, Language, and Decision capabilities).
+
+Machine Learning Concepts: Understanding of supervised, unsupervised learning and basic model training techniques.
+
+Conversational AI: Familiar with natural language processing (NLP), Azure Bot Services, and chatbot fundamentals.
+
+Responsible AI: Awareness of ethical AI principles such as fairness, privacy, and transparency.
+
+Cloud Basics: Introductory experience with Azure Portal, resource management, and deploying AI solutions on the cloud..</p>
     </div>
     <div className="card">
       <img src="./image/micro1.png" alt="Image 6" className="card-img"/>
