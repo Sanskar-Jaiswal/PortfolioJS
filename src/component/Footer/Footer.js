@@ -13,7 +13,7 @@ const Footer = () => {
           <a href="https://github.com/Sanskarjaas" target="_blank" rel="noopener noreferrer" className="social-icon">
             <i className="fab fa-github"></i>
           </a>
-          <a href="mailto:aaryanjaiswal2136@gmail.com" className="social-icon">
+          <a href="mailto:sanskar6jaiswal@gmail.com" className="social-icon">
             <i className="fas fa-envelope"></i>
           </a>
         </div>
