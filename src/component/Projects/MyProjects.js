@@ -37,12 +37,7 @@ const MyProjects = () => {
 Microsoft Azure AI Services: Hands-on knowledge of Azure Cognitive Services (Vision, Language, and Decision capabilities).
 
 Machine Learning Concepts: Understanding of supervised, unsupervised learning and basic model training techniques.
-
-Conversational AI: Familiar with natural language processing (NLP), Azure Bot Services, and chatbot fundamentals.
-
-Responsible AI: Awareness of ethical AI principles such as fairness, privacy, and transparency.
-
-Cloud Basics: Introductory experience with Azure Portal, resource management, and deploying AI solutions on the cloud..</p>
+</p>
     </div>
     <div className="card">
       <img src="./image/micro1.png" alt="Image 6" className="card-img"/>
