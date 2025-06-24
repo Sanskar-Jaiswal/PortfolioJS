@@ -88,7 +88,9 @@ const MySkills = () => {
         <div className="skill-card">
           <h3 className="skill-title">Jenkins</h3>
         </div>
-        
+          <div className="skill-card">
+          <h3 className="skill-title">Linux</h3>
+        </div>
       </div>
     </section>
   )

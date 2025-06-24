@@ -35,9 +35,9 @@ const MyProjects = () => {
       <p className="card-description">This is a description for Card 5.</p>
     </div>
     <div className="card">
-      <img src="./image/agile.png" alt="Image 6" className="card-img"/>
-      <h3 className="card-title">Card 6 Title</h3>
-      <p className="card-description">This is a description for Card 6.</p>
+      <img src="./image/micro1.png" alt="Image 6" className="card-img"/>
+      <h3 className="card-title">Micro 1 Certified</h3>
+      <p className="card-description">A micro-certificate, also known as a micro-credential, is a short, focused certification that validates an individual's expertise in a specific, narrow area of knowledge or skill. It's a compact qualification designed to be completed quickly, often online, and is distinct from traditional degrees or longer certification programs. </p>
     </div>
   </div>
     </section>
