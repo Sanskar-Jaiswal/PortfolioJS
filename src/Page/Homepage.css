@@ -1,16 +1,16 @@
 .body
 {
-    background-color: #21201E;
-    color: #ffffff;  
+    background-color: #fcfdfc;
+    color: #b12525;  
     font-family: "Sofia", sans-serif;
 }
 
 .title{
-    color: #ED9902;
-    padding: 12px 24px;
+    color: #b12525;
+    padding: 1px 1px;
 }
 .button {
-    background-color: #ED9902; /* Green background */
+    background-color: #b12525; /* Green background */
     color: white; /* White text */
     padding: 12px 24px; /* Padding for button */
     border: none; /* Remove default border */
@@ -21,12 +21,12 @@
   }
   
   .button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #29214d; /* Darker green on hover */
     transform: scale(1.05); /* Slight scale-up effect */
   }
   
   .button:active {
-    background-color: #388e3c; /* Even darker green on click */
+    background-color: #b12525; /* Even darker green on click */
     transform: scale(0.98); /* Scale-down effect on click */
   }
   
@@ -35,10 +35,10 @@
   }
   p {
     text-align: center;
-    font-size: 1rem;
-    color: #ddd;
+    font-size: 4rem;
+    color: #000000;
     padding: 20px 40px; /* Added padding for better spacing around text */
     line-height: 1.6;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto 30px;
   }

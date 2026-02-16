@@ -8,10 +8,11 @@
   }
   /* Text styling */
   .text {
-    flex: 1;  /* Take up available space */
+    flex: 2;  /* Take up available space */
     max-width: 50%;  /* Limit to 50% width on larger screens */
     text-align: center;
   }
+  /* biome-ignore lint/correctness/noInvalidPositionAtImportRule: <explanation> */
   @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap'); /* Import the Rubik font */
 
 .des {
@@ -21,15 +22,15 @@
   font-style:normal; /* Slanted text */
   text-align: center; /* Center-align text */
   font-size: 1.8rem; /* Adjust font size */
-  color: #ffffff; /* Neutral dark text color */
+  color: #b12525; /* Neutral dark text color */
   letter-spacing: 6px; /* Space out letters slightly */
   transform: skewX(-10deg); /* Add a slant effect */
-  margin: 20px 0; /* Add spacing above and below */
+  margin: 100px 0; /* Add spacing above and below */
   transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover transition */
 }
 
 .des:hover {
-  color: #45a049;; /* Change color on hover */
+  color: #29214d;; /* Change color on hover */
   transform: scale(1.1) skewX(-10deg); /* Scale up slightly while maintaining slant */
 }
 

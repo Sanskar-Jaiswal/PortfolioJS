@@ -19,7 +19,7 @@
   
   .section-description {
     font-size: 1.2rem;
-    color: #ddd;
+    color: #110606;
     margin-bottom: 20px;
   }
   
@@ -58,7 +58,7 @@
   }
   
   .submit-btn {
-    background-color: #ED9902;
+    background-color: #b12525;
     color: #222;
     border: none;
     padding: 10px 20px;
@@ -70,6 +70,7 @@
   
   .submit-btn:hover {
 
-    background-color: #45a049;
+    background-color: #29214d;
+    color: white;
   }
   

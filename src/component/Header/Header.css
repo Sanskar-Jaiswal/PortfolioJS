@@ -4,8 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #21201E;
-    color: #fff;
+    
     font-family: 'Arial', sans-serif;
   }
   
@@ -13,7 +12,7 @@
     font-size: 2rem;
     font-weight: bold;
     margin: 0;
-    color: #fff;
+    
   }
   
   .nav {
@@ -34,7 +33,7 @@
   }
   
   .nav-links a {
-    color: #fff;
+    color: #b12525;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
@@ -42,7 +41,7 @@
   }
   
   .nav-links a:hover {
-    color: #45a049;
+    color: #29214d;
   }
   
   .download-btn {
@@ -51,7 +50,7 @@
   }
   
   .download-link {
-    background-color: #ED9902;
+    background-color: #b12525;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
@@ -61,7 +60,7 @@
   }
   
   .download-link:hover {
-    background-color: #45a049;
+    background-color: #29214d;
   }
   
   /* Mobile Styles */

@@ -40,16 +40,17 @@ body {
   
   /* Title of the card */
   .card-title {
-    margin: 15px;
+    margin: 5px;
     font-size: 1.2em;
     font-weight: 600;
+    color: white;
   }
   
   /* Description of the card */
   .card-description {
     margin: 0 15px 15px;
     color: #ddd;
-    font-size: 0.7em;
+    font-size: 1.0em;
   }
   
   /* Responsiveness */
