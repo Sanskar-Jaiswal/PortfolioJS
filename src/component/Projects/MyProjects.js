@@ -3,11 +3,10 @@ import "./MyProjects.css";
 const MyProjects = () => {
 	return (
 		<section id="projects">
-			{" "}
 			<h1 className="title">Featured Projects</h1>
 			<div className="card-container">
 				<div className="card">
-					<img src="./image/devops.png" alt="Image1" className="card-img" />
+					<img src="/image/devops.png" alt="DevOps automation" className="card-img" />
 					<h3 className="card-title">DevOps & CI/CD Automation</h3>
 					<p className="card-description">
 						Projects features that automated on CI/CD pipelines with Jenkins,
@@ -17,7 +16,7 @@ const MyProjects = () => {
 					</p>
 				</div>
 				<div className="card">
-					<img src="./image/UIUX.png" alt="Image2" className="card-img" />
+					<img src="/image/UIUX.png" alt="UI UX design" className="card-img" />
 					<h3 className="card-title">UI/UX Design:</h3>
 					<p className="card-description">
 						Projects highlight a design-focused approach with Figma, blending
@@ -26,7 +25,7 @@ const MyProjects = () => {
 					</p>
 				</div>
 				<div className="card">
-					<img src="./image/dotnet.png" alt="Image3" className="card-img" />
+					<img src="/image/dotnet.png" alt="Dotnet development" className="card-img" />
 					<h3 className="card-title">.NET Development</h3>
 					<p className="card-description">
 						Includes full-stack solutions such as a real-time chat application
@@ -35,7 +34,7 @@ const MyProjects = () => {
 					</p>
 				</div>
 				<div className="card">
-					<img src="./image/terra.png" alt="Image4" className="card-img" />
+					<img src="/image/terra.png" alt="Terraform infrastructure" className="card-img" />
 					<h3 className="card-title"> IaC with Terraform</h3>
 					<p className="card-description">
 						Using Terraform, automated and manages infrastructure on Azure,
@@ -44,7 +43,7 @@ const MyProjects = () => {
 					</p>
 				</div>
 				<div className="card">
-					<img src="./image/AI.png" alt="Image5" className="card-img" />
+					<img src="/image/AI.png" alt="Azure AI fundamentals" className="card-img" />
 					<h3 className="card-title">
 						Microsoft Azure AI Fundamentals | Aspiring AI & Cloud Professional
 					</h3>
@@ -58,7 +57,7 @@ const MyProjects = () => {
 					</p>
 				</div>
 				<div className="card">
-					<img src="./image/micro1.png" alt="Image6" className="card-img" />
+					<img src="/image/micro1.png" alt="Micro certification" className="card-img" />
 					<h3 className="card-title">Micro 1 Certified</h3>
 					<p className="card-description">
 						A micro-certificate, also known as a micro-credential, is a short,

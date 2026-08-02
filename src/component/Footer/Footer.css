@@ -1,55 +1,44 @@
-/* General Footer Styles */
 .footer {
-    background-color: #2D2B29;
-    color: #fff;
-    padding: 10px ;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    position: relative;
-  }
-  
-  .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px;
-  }
-  
-  .footer-text {
-    font-size: 1rem;
-    color: #fff;
-    margin-bottom: 5px;
-  }
-  
+  padding: 1.75rem 1rem 2.25rem;
+  text-align: center;
+  color: var(--muted);
+  transform-style: preserve-3d;
+  border-top: 1px solid var(--border-soft);
+  margin-top: 2rem;
+}
+
+.footer-container {
+  width: min(1200px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.footer-text {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.social-icon {
+  color: var(--text-soft);
+  font-size: 1.4rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+  transform-style: preserve-3d;
+}
+
+.social-icon:hover {
+  color: var(--accent);
+  transform: translateY(-2px) rotateX(8deg);
+}
+
+@media (max-width: 540px) {
   .footer-socials {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    gap: 0.85rem;
   }
-  
-  .social-icon {
-    color: #fff;
-    font-size: 1.5rem;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .social-icon:hover {
-    color: #ffffff;
-  }
-  
-  /* Adding icons using Font Awesome */
-  .fab, .fas {
-    font-size: 1.5rem;
-  }
-  
-  .footer a {
-    text-decoration: none;
-  }
-  
-  @media (max-width: 768px) {
-    .footer-socials {
-      flex-direction: column;
-      gap: 10px;
-    }
-  }
-  
+}

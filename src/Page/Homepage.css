@@ -1,44 +1,83 @@
-.body
-{
-    background-color: #fcfdfc;
-    color: #b12525;  
-    font-family: "Sofia", sans-serif;
+.page-body {
+  min-height: 100vh;
+  padding-top: 80px;
+  perspective: none;
+  perspective-origin: initial;
 }
 
-.title{
-    color: #b12525;
-    padding: 1px 1px;
+.section {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 24px;
 }
-.button {
-    background-color: #b12525; /* Green background */
-    color: white; /* White text */
-    padding: 12px 24px; /* Padding for button */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Text size */
-    cursor: pointer; /* Change cursor to pointer */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.section-intro {
+  max-width: 760px;
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.glass-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+}
+
+/* 3D scroll effect enhancements removed */
+.scroll-3d,
+.card-3d,
+.img-3d {
+  opacity: 1 !important;
+  transform: none !important;
+  transform-style: initial !important;
+  will-change: auto !important;
+}
+
+.scroll-3d {
+  perspective: none !important;
+  perspective-origin: initial !important;
+}
+
+/* Arrow theme decorative elements */
+.arrow-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  color: var(--muted-faint);
+  opacity: 0.6;
+}
+
+.arrow-divider i {
+  font-size: 1rem;
+  animation: arrowDividerFloat 2s ease-in-out infinite;
+}
+
+.arrow-divider i:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.arrow-divider i:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes arrowDividerFloat {
+  0%, 100% {
+    transform: translateY(0) rotateX(0deg);
   }
-  
-  .button:hover {
-    background-color: #29214d; /* Darker green on hover */
-    transform: scale(1.05); /* Slight scale-up effect */
+  50% {
+    transform: translateY(-6px) rotateX(20deg);
   }
-  
-  .button:active {
-    background-color: #b12525; /* Even darker green on click */
-    transform: scale(0.98); /* Scale-down effect on click */
-  }
-  
-  .button:focus {
-    outline: none; /* Remove the default outline when focused */
-  }
-  p {
-    text-align: center;
-    font-size: 4rem;
-    color: #000000;
-    padding: 20px 40px; /* Added padding for better spacing around text */
-    line-height: 1.6;
-    max-width: 900px;
-    margin: 0 auto 30px;
-  }
+}

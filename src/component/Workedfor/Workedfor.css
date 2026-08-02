@@ -1,0 +1,67 @@
+.worked-section {
+  padding: 64px 0;
+}
+
+.worked-section .worked-title {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.worked-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(140px, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+  justify-items: center;
+  width: min(1200px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.brand-card {
+  display: grid;
+  place-items: center;
+  min-height: 130px;
+  padding: 1.3rem;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(245,245,248,0.92));
+  border: 1px solid rgba(38, 35, 35, 0.08);
+  box-shadow: var(--shadow-soft);
+  color: var(--text);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.94rem;
+  text-align: center;
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+}
+
+.brand-card.brand-placeholder {
+  background: linear-gradient(180deg, rgba(127, 92, 255, 0.12), rgba(29, 46, 96, 0.08));
+  color: #172a4b;
+}
+
+.brand-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 22px 58px rgba(0, 0, 0, 0.12);
+  border-color: rgba(127, 92, 255, 0.18);
+}
+
+.logo-image {
+  max-width: 140px;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .worked-grid {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .worked-grid {
+    grid-template-columns: 1fr;
+  }
+}

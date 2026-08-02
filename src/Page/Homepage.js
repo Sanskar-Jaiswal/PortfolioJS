@@ -11,12 +11,11 @@ import "./Homepage.css";
 
 const Homepage = () => {
 	return (
-		<div className="body">
+		<div className="page-body">
 			<Header />
 			<Dashboard />
 			<About />
 			<Workedfor />
-			
 			<MyProjects />
 			<MyCertification />
 			<MySkills />

@@ -1,10 +1,9 @@
 
-import Homepage from './Page/Homepage';
+import "./App.css";
+import Homepage from "./Page/Homepage";
 
 function App() {
-  return (
-    <Homepage/>
-  );
+  return <Homepage />;
 }
-/* Added the comment*/
+
 export default App;
