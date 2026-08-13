@@ -1,7 +1,5 @@
 import "./Header.css";
 
-// {<a href='https://ecommerce-react-three-zeta.vercel.app/' className="download-link">mysite</a>}
-
 const Header = () => {
 	return (
 		<header className="header">

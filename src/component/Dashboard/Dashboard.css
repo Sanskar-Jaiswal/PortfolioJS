@@ -2,9 +2,9 @@
   position: relative;
   padding: 140px 0 90px;
   overflow: hidden;
-  background: radial-gradient(circle at 22% 18%, rgba(127, 92, 255, 0.18), transparent 14%),
-    radial-gradient(circle at 85% 18%, rgba(61, 215, 255, 0.16), transparent 12%),
-    linear-gradient(145deg, #08101f 0%, #111a2b 45%, #0d1320 100%);
+  background: radial-gradient(circle at 22% 18%, rgba(79, 70, 229, 0.22), transparent 14%),
+    radial-gradient(circle at 85% 18%, rgba(124, 58, 237, 0.18), transparent 12%),
+    linear-gradient(145deg, #091427 0%, #111a2d 42%, #121827 100%);
   background-size: cover;
   background-position: center 20%;
   background-blend-mode: overlay, overlay, normal;
@@ -44,11 +44,11 @@
 
 .container {
   position: relative;
-  width: min(1200px, calc(100% - 48px));
+  width: min(1200px, calc(100% - 64px));
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
-  gap: clamp(2rem, 4vw, 4rem);
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+  gap: clamp(2.5rem, 5vw, 5rem);
   align-items: center;
 }
 
@@ -78,15 +78,14 @@
 
 .des {
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
   max-width: fit-content;
   padding: 1rem 1.45rem;
   border-radius: 999px;
   background: rgba(20, 26, 45, 0.78);
   color: #d8deff;
-  letter-spacing: 0.14em;
-  font-size: 0.95rem;
   box-shadow: 0 12px 32px rgba(15, 17, 27, 0.42);
 }
 
@@ -135,11 +134,17 @@
 }
 
 .profileimage img {
-  width: min(100%, 420px);
+  width: min(100%, 470px);
   border-radius: 36px;
   box-shadow: 0 40px 110px rgba(0, 0, 0, 0.36);
   transform: perspective(900px) rotateY(-7deg);
   border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.profileimage img:hover {
+  transform: perspective(900px) rotateY(0deg) translateY(-6px);
+  box-shadow: 0 48px 120px rgba(0, 0, 0, 0.42);
 }
 
 @media (max-width: 920px) {

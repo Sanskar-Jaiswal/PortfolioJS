@@ -5,19 +5,19 @@ const about = () => {
 		<section id="about" className="about-section">
 			<div className="about-wrapper">
 				<div className="about-text">
-					<h3 className="title">About Me</h3>
-					<p className="subtitle">Why Hire Me?</p>
+					<p className="subtitle">About Me</p>
+					<h3 className="title">Building reliable systems and better digital experiences.</h3>
 					<p>
-						A passionate and results-driven DevOps and Cloud Engineer with hands-on
-						experience designing, automating, and managing scalable infrastructure
-						and deployment pipelines. I have practical expertise in infrastructure
-						provisioning, CI/CD implementation, and container orchestration.
+						I’m a DevOps Engineer and Web Developer focused on creating scalable,
+						efficient, and dependable technology solutions. My work sits at the
+						intersection of cloud infrastructure, automation, and user-first product
+						development.
 					</p>
 					<p>
-						I work with tools such as Jenkins, Terraform, Docker, and Kubernetes to
-						automate workflows, streamline delivery, and ensure reliable deployments.
-						I also bring full-stack exposure with .NET and React, enabling strong
-						collaboration across development and operations teams.
+						From CI/CD pipelines and infrastructure provisioning to responsive web
+						interfaces, I help teams move faster without compromising stability.
+						I enjoy turning complex technical challenges into practical systems that
+						support business growth and long-term performance.
 					</p>
 				</div>
 			</div>

@@ -1,10 +1,11 @@
 .footer {
-  padding: 1.75rem 1rem 2.25rem;
+  padding: 2rem 1rem 2.5rem;
   text-align: center;
   color: var(--muted);
   transform-style: preserve-3d;
   border-top: 1px solid var(--border-soft);
   margin-top: 2rem;
+  background: linear-gradient(180deg, rgba(245,247,255,0.4), rgba(255,255,255,0.9));
 }
 
 .footer-container {
@@ -15,7 +16,8 @@
 .footer-text {
   margin: 0 0 1rem;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.88rem;
+  letter-spacing: 0.02em;
 }
 
 .footer-socials {
@@ -26,14 +28,22 @@
 }
 
 .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(79, 70, 229, 0.08);
   color: var(--text-soft);
-  font-size: 1.4rem;
-  transition: transform 0.2s ease, color 0.2s ease;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease, color 0.2s ease, background 0.2s ease;
   transform-style: preserve-3d;
 }
 
 .social-icon:hover {
   color: var(--accent);
+  background: rgba(79, 70, 229, 0.12);
   transform: translateY(-2px) rotateX(8deg);
 }
 
