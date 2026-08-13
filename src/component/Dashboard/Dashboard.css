@@ -134,7 +134,7 @@
 }
 
 .profileimage img {
-  width: min(100%, 470px);
+  width: min(100%, 560px);
   border-radius: 36px;
   box-shadow: 0 40px 110px rgba(0, 0, 0, 0.36);
   transform: perspective(900px) rotateY(-7deg);
